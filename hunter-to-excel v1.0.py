@@ -122,7 +122,7 @@ def main():
     page = input("[*]请输入所查询页码：")
     page_size = input("[*]请输入每页资产条数：")
     is_web = input("[*]请选择资产类型（资产类型，1代表web资产，2代表非web资产，3代表全部）：")
-    cookie = input("[*]请输入cookie：(方法：打开http://hunter.qianxin.com/登录之后，按F12，在console控制台里面输入document.cookie，双击下方的红色部分，把所有内容连同两个单引号复制下来，粘贴过来。)")
+    cookie = input("[*]请输入cookie：")
     url = 'https://hunter.qianxin.com/openApi/search?api-key='+ str(api_key) + '&search='+ str(search_result) + '&page=' + str(page) + '&page_size=' + str(page_size) + '&is_web=' + str(is_web)
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36',
