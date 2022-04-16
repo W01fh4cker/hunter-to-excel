@@ -12,7 +12,6 @@ print("""
 """)
 import requests
 import base64
-from pprint import pprint
 import json
 import xlwt
 import time
